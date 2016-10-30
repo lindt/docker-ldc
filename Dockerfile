@@ -4,7 +4,7 @@ MAINTAINER Stefan Rohe <think@hotmail.de>
 
 ENV \
   COMPILER=ldc \
-  COMPILER_VERSION=82de92ca7c0438846677b72f4358d7bd9bcb0541
+  COMPILER_VERSION=0.10.0-beta1
 
 RUN apt-get update && apt-get install -y curl build-essential \
  && curl -fsS -o /tmp/install.sh https://dlang.org/install.sh \
