@@ -1,0 +1,5 @@
+#!/bin/bash
+git clone https://github.com/ldc-developers/ldc.git ldc &> /dev/null ;
+set -e
+git --git-dir=$(pwd)/ldc/.git --work-tree=$(pwd)/ldc pull -q
+git --git-dir=$(pwd)/ldc/.git --work-tree=$(pwd)/ldc show-ref --tags | grep "tags/v" | sed 's/.*tags\/v//'
