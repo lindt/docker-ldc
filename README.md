@@ -4,8 +4,6 @@
 
 # docker-ldc
 
-Docker Image for LDC
-
 Docker Image for LLVM-based [D](http://dlang.org) Compiler.
 
 ## Motivation
