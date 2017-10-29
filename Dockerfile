@@ -11,7 +11,7 @@ RUN apt-get update && apt-get install -y curl libcurl3 build-essential \
  && bash /tmp/install.sh -p /dlang install "${COMPILER}-${COMPILER_VERSION}" \
  && rm /tmp/install.sh \
  && apt-get auto-remove -y curl build-essential \
- && apt-get install -y gcc \
+ && apt-get install -y gcc cmake \
  && rm -rf /var/cache/apt \
  && rm -rf /dlang/${COMPILER}-*/lib32 \
  && rm -rf /dlang/dub-1.0.0/dub.tar.gz
