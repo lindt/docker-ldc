@@ -12,5 +12,5 @@ if [ "${USER_ID}" -ne "0" ]; then
 
   /usr/local/bin/gosu ${USER_NAME} /bin/bash -c "${CMD}"
 else
-  /bin/bash -c "${CMD}"
+  exec "$@"
 fi
