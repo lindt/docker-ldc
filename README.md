@@ -1,6 +1,7 @@
 [![Docker pulls](https://img.shields.io/docker/pulls/dlanguage/ldc.svg)](https://hub.docker.com/r/dlanguage/ldc/)
 [![Docker Build](https://img.shields.io/docker/automated/dlanguage/ldc.svg)](https://hub.docker.com/r/dlanguage/ldc/)
 [![Latest Tag](https://img.shields.io/github/tag/lindt/docker-ldc.svg)](https://hub.docker.com/r/dlanguage/ldc/)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flindt%2Fdocker-ldc.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Flindt%2Fdocker-ldc?ref=badge_shield)
 
 # docker-ldc
 
@@ -29,3 +30,7 @@ Then execute
 ```
 docker run --rm -ti -v $(pwd):/src dlanguage/ldc ldc2 test.d
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Flindt%2Fdocker-ldc.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Flindt%2Fdocker-ldc?ref=badge_large)
